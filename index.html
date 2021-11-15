@@ -33,11 +33,64 @@
         </label>
         <input type="checkbox" id="menu-toggle" />
         <ul id="trickMenu" class="navDesk">
-           <li class="li-navDesk"><a class="a-navDesk" href="index.html">Nosótros</a></li>
-           <li class="li-navDesk"><a class="a-navDesk" href="servicios.html">Servicios</a></li>
-           <li class="li-navDesk"><a class="a-navDesk" href="contacto.html">Contacto</a></li>
+          <li class="li-navDesk">
+            <a class="a-navDesk btn btn-primary" href="index.html">Flyencell</a>
+        </li>
+        <li class="li-navDesk">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+            Servicios
+            </button>
+        </li>
+        <li class="li-navDesk">
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
+            Contacto
+            </button>
+        </li>
         </ul>
      </nav>
+     <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Servicios que ofrecemos para tu celular</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          
+            <div class="card" style="width: 18rem;">
+                <img src="img/modulos.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Cambiamos el modulo de tu telefono en calidad original o alternativa. La que vos elijas!</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/pin.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Cambiamos el pin de carga de tu telefono garantizamos que va quedar como nuevo</p>
+                </div>
+            </div>
+            <div class="card" style="width: 18rem;">
+                <img src="img/soft.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Realizamos trabajos de software a tu telefono</p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="img/libre.jpg" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <p class="card-text">Liberamos tu equipo para que lo puedas usar con la compañia celular que quieras</p>
+                </div>
+              </div>
+
+
+
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
 
     <div class="container-fluid carr">
         <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
@@ -74,13 +127,6 @@
     <footer class="foot">
       <p class="p-foot">maxicodezz&copy;2021 by <a class="a-foot" href="">Maximiliano Pérez</a></p>
     </footer>
-
-    
-    
-
-
-
-
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     <script src="js/main.js"></script>

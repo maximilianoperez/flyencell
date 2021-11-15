@@ -31,9 +31,9 @@ input{
 .li-navDesk{
     margin: 0;
     display: inline-block;
-    padding: 5px 10px;
+    /* padding: 5px 10px;
     background-color: #CCCCCC;
-    border-radius: 5px;
+    border-radius: 5px; */
 }
 .li-navDesk:hover{
     background-color: burlywood;
@@ -58,7 +58,7 @@ input{
 .btn-flotante {
     color: #075e54;
     background-color: #fff;
-    border-radius: 25%;
+    border-radius: 10%;
     position: fixed;
     bottom: 50px;
     right: 40px;
@@ -71,7 +71,6 @@ input{
 }
 @media only screen and (max-width: 600px){
     .btn-flotante{
-        font-size: 14px;
         padding: 12px 20px;
         bottom: 20px;
         right: 20px;
@@ -101,4 +100,8 @@ input{
 }
 .foot .a-foot:hover {
     color: #00b8d4; 
+}
+
+@media screen and (min-width: 320px) and (max-width: 900px){
+
 }
