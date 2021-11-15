@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.body{
+    margin: 0;
+    padding: 0;
+    background-color: #0A0A0A;
+}
+.header{
+    background-color: #D972FF;
+    text-align: center;
+}
+.logo{
+    height: 50%;
+    width: 50%;
+    padding: 0.5em;
+}
+.navDesk{
+    list-style: none;
+    margin: 10px 0;
+    padding: 0 0;
+    text-align: center;
+    width: 100%;
+    height: 36.67px;
+}
+input{
+    display: none;
+    height: 0;
+}
+.li-navDesk{
+    margin: 0;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #CCCCCC;
+    border-radius: 5px;
+}
+.li-navDesk:hover{
+    background-color: burlywood;
+    border-radius: 5px;
+}
+.a-navDesk{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.container-fluid.carr{
+    padding: 1em 2em;
+}
+
+/*mapa*/
+.mapF{
+    width: 100%;
+    height: 20em;
+    padding: 0 2em;
+}
+/*Wpp Boton*/
+.btn-flotante {
+    color: #075e54;
+    background-color: #fff;
+    border-radius: 25%;
+    position: fixed;
+    bottom: 50px;
+    right: 40px;
+    transition: all 300ms ease 0ms;
+    z-index: 99;
+}
+.btn-flotante:hover {
+    color: #25d366;
+    transform: translateY(-7px);
+}
+@media only screen and (max-width: 600px){
+    .btn-flotante{
+        font-size: 14px;
+        padding: 12px 20px;
+        bottom: 20px;
+        right: 20px;
+}
+}
+
+/*footer*/
+.foot {
+    background-color: #D972FF;
+    margin: 0;
+    margin-top: 12px;
+    width: 100%;
+    height: auto;
+    bottom: 0;
+    left: 0;
+    padding-right: 10px;
+}
+.foot .p-foot {
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    text-align: right;
+    margin: 0;
+}
+.foot .a-foot {
+    text-decoration: none;
+    color: #212121;
+}
+.foot .a-foot:hover {
+    color: #00b8d4; 
+}
