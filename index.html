@@ -1,54 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <link rel="icon" href="#" type="image/png">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&family=Share+Tech+Mono&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/main.css">
-    <title>Document</title>
-</head>
-<body class="body">
-    <header class="header">
-      <a href="index.html">
-          <img class="logo" src="img/logo.png" alt="logo flyencell">
-      </a>
-        
-    </header>
 
-    <nav class="menuR">
-        <label for="menu-toggle">
-           <div class="botonMenu">
-              <span></span>
-              <span></span>
-              <span></span>
-           </div>
-        </label>
-        <input type="checkbox" id="menu-toggle" />
-        <ul id="trickMenu" class="navDesk">
-          <li class="li-navDesk">
-            <a class="a-navDesk btn btn-primary" href="index.html">Flyencell</a>
-        </li>
-        <li class="li-navDesk">
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
-            Servicios
-            </button>
-        </li>
-        <li class="li-navDesk">
-            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop3">
-            Contacto
-            </button>
-        </li>
-        </ul>
-     </nav>
-     <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1" aria-labelledby="staticBackdropLabel" aria-hidden="true">
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="">
+  <meta name="description" content="">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link rel="icon" href="#" type="image/png">
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&family=Roboto+Mono&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/main.css">
+  <title>Document</title>
+</head>
+
+<body class="body">
+  <header class="header">
+    <a href="index.html">
+      <img class="logo" src="img/logo.png" alt="logo flyencell">
+    </a>
+  </header>
+
+  <nav class="menuR">
+    <label for="menu-toggle">
+      <div class="botonMenu">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </label>
+    <input type="checkbox" id="menu-toggle" />
+    <ul id="trickMenu" class="navDesk">
+      <li class="li-navDesk">
+        <a class="btn btn-primary" href="index.html">Flyencell</a>
+      </li>
+      <li class="li-navDesk">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop1">
+          Servicios
+        </button>
+      </li>
+      <li class="li-navDesk">
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#staticBackdrop2">
+          Contacto
+        </button>
+      </li>
+    </ul>
+  </nav>
+
+  <!-- Modal Servicios-->
+  <div class="modal fade" id="staticBackdrop1" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
     <div class="modal-dialog">
       <div class="modal-content">
         <div class="modal-header">
@@ -56,79 +63,139 @@
           <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
         </div>
         <div class="modal-body">
-          
-            <div class="card" style="width: 18rem;">
-                <img src="img/modulos.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Cambiamos el modulo de tu telefono en calidad original o alternativa. La que vos elijas!</p>
-                </div>
+          <div class="card">
+            <img src="img/modulos.jpg" class="card-img-top" alt="Imagen ilustrativa de modulos celulares">
+            <div class="card-body">
+              <p class="card-text">Cambiamos el modulo de tu telefono en calidad original o alternativa. La que vos
+                elijas!</p>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="img/pin.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Cambiamos el pin de carga de tu telefono garantizamos que va quedar como nuevo</p>
-                </div>
+          </div>
+          <!--div-card-modulo-->
+          <div class="card">
+            <img src="img/pin.jpg" class="card-img-top" alt="Imagen ilustrativa de pin de carga">
+            <div class="card-body">
+              <p class="card-text">Cambiamos el pin de carga de tu telefono o tablet garantizamos que va quedar como
+                nuevo</p>
             </div>
-            <div class="card" style="width: 18rem;">
-                <img src="img/soft.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Realizamos trabajos de software a tu telefono</p>
-                </div>
-              </div>
-              <div class="card" style="width: 18rem;">
-                <img src="img/libre.jpg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <p class="card-text">Liberamos tu equipo para que lo puedas usar con la compañia celular que quieras</p>
-                </div>
-              </div>
-
-
-
+          </div>
+          <!--div-card-pin-->
+          <div class="card">
+            <img src="img/soft.jpg" class="card-img-top" alt="Imagen ilustrativa de software">
+            <div class="card-body">
+              <p class="card-text">Realizamos trabajos de software a tu telefono, si va lento o queda trabado en el
+                logo, esto puede solucionarlo</p>
+            </div>
+          </div>
+          <!--div-card-soft-->
+          <div class="card">
+            <img src="img/libre.jpg" class="card-img-top" alt="Imagen ilustrativa de liberación celular">
+            <div class="card-body">
+              <p class="card-text">Liberamos tu equipo para que lo puedas usar con la compañia celular que quieras!</p>
+            </div>
+          </div>
+          <!--div-card-libre-->
         </div>
+        <!--modal-body-->
         <div class="modal-footer">
-          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
         </div>
       </div>
     </div>
   </div>
+  <!--div-modal-servicios-celular-->
 
-    <div class="container-fluid carr">
-        <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
-            <div class="carousel-inner">
-              <div class="carousel-item active">
-                <img src="img/img-1.jpg" class="d-block w-100" alt="1">
-              </div>
-              <div class="carousel-item">
-                <img src="img/img-2.jpg" class="d-block w-100" alt="2">
-              </div>
-              <div class="carousel-item">
-                <img src="img/img-3.jpg" class="d-block w-100" alt="3">
-              </div>
-            </div>
-            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
-              <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Previous</span>
-            </button>
-            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
-              <span class="carousel-control-next-icon" aria-hidden="true"></span>
-              <span class="visually-hidden">Next</span>
-            </button>
+  <!-- Modal Contacto -->
+  <div class="modal fade" id="staticBackdrop2" data-bs-backdrop="static" data-bs-keyboard="false" tabindex="-1"
+    aria-labelledby="staticBackdropLabel" aria-hidden="true">
+    <div class="modal-dialog">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="staticBackdropLabel">Contacto</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <div class="contacto container-fluid">
+            <ul class="ul-contacto">
+              <li class="li-contacto"><a class="a-contacto" href="https://www.facebook.com/Flyencellsalta"
+                  target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+              <li class="li-contacto"><a class="a-contacto" href="https://g.page/FlyenCell?share" target="_blank"><i
+                    class="fas fa-map-marker-alt"></i></a></li>
+              <li class="li-contacto"><a class="a-contacto" href="https://www.instagram.com/flyencellsalta"
+                  target="_blank"><i class="fab fa-instagram"></i></a></li>
+            </ul>
           </div>
+          <!--div-contacto-->
+        </div>
+        <!--modal-body-->
+        <div class="modal-footer">
+          <button type="button" class="btn btn-dark" data-bs-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
     </div>
+  </div>
+  <!--div-modal-contacto-->
 
-    <iframe class="mapF" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.1274737585863!2d-65.4175331844239!3d-24.791088184086718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc353bbbe21bf%3A0x679616652b6d5327!2sFlyencellsalta!5e0!3m2!1ses!2sar!4v1636877652435!5m2!1ses!2sar" style="border:0;" allowfullscreen="" loading="lazy">
-    </iframe>
+  <!--Carrusel-->
+  <div class="container-fluid carr">
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/img-1.jpg" class="d-block w-100" alt="1">
+        </div>
+        <div class="carousel-item">
+          <img src="img/img-2.jpg" class="d-block w-100" alt="2">
+        </div>
+        <div class="carousel-item">
+          <img src="img/img-3.jpg" class="d-block w-100" alt="3">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </div>
+  <!--carrusel-->
 
-    <a class="btn-flotante" target="_blank" href="https://api.whatsapp.com/send?phone=+5493874122567"><i class="fab fa-whatsapp fa-5x"></i></a>
+  <!--Mapa-->
+  <iframe class="mapF"
+    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3622.1274737585863!2d-65.4175331844239!3d-24.791088184086718!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x941bc353bbbe21bf%3A0x679616652b6d5327!2sFlyencellsalta!5e0!3m2!1ses!2sar!4v1636877652435!5m2!1ses!2sar"
+    style="border:0;" allowfullscreen="" loading="lazy">
+  </iframe>
+  <!--mapa-->
 
+  <!--Seccion Ofertas-->
+  <section class="ofertas-planes container-fluid">
+    <div class="empresas">
+      <div class="card-empresas">
 
+      </div>
+    </div>
+    div.
+  </section>
+  <!--seccion ofertas-->
 
+  <!--Boton flotante Wpp-->
+  <a class="btn-flotante" target="_blank" href="https://api.whatsapp.com/send?phone=+5493874122567"><i
+      class="fab fa-whatsapp fa-5x"></i></a>
+  <!--boton flotante wpp-->
 
-    <footer class="foot">
-      <p class="p-foot">maxicodezz&copy;2021 by <a class="a-foot" href="">Maximiliano Pérez</a></p>
-    </footer>
+  <!--Footer-->
+  <footer class="foot">
+    <p class="p-foot">maxicodezz&copy;2021 by <a class="a-foot" href="">Maximiliano Pérez</a></p>
+  </footer>
+  <!--footer-->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    <script src="js/main.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous">
+  </script>
+  <script src="js/main.js"></script>
 </body>
+
 </html>

@@ -1,22 +1,27 @@
-*{
+* {
     margin: 0;
     padding: 0;
 }
-.body{
+
+.body {
     margin: 0;
     padding: 0;
+    text-align: center;
     background-color: #0A0A0A;
 }
-.header{
+
+.header {
     background-color: #D972FF;
     text-align: center;
 }
-.logo{
+
+.logo {
     height: 50%;
     width: 50%;
     padding: 0.5em;
 }
-.navDesk{
+
+.navDesk {
     list-style: none;
     margin: 10px 0;
     padding: 0 0;
@@ -24,36 +29,107 @@
     width: 100%;
     height: 36.67px;
 }
-input{
+
+input {
     display: none;
     height: 0;
 }
-.li-navDesk{
+
+.li-navDesk {
     margin: 0;
     display: inline-block;
-    /* padding: 5px 10px;
-    background-color: #CCCCCC;
-    border-radius: 5px; */
 }
-.li-navDesk:hover{
+
+.li-navDesk:hover {
     background-color: burlywood;
     border-radius: 5px;
 }
-.a-navDesk{
+
+.a-navDesk {
     text-decoration: none;
     text-transform: uppercase;
     font-size: 14px;
 }
-.container-fluid.carr{
+
+/*Modal CSS*/
+.modal-body {
+    text-align: center;
+    background-color: #fff;
+}
+
+.modal-title {
+    font-family: 'Roboto Mono', monospace;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1.2em;
+}
+
+.card {
+    width: 100%;
+    text-align: center;
+    margin-bottom: .5em;
+    background-color: #FAEBFF;
+    font-family: 'Oswald', sans-serif;
+    font-size: 1.5em;
+}
+
+.modal-footer,
+.modal-header {
+    background-color: #D972FF;
+}
+
+/*Contacto*/
+.contacto {
+    height: 30vh;
+}
+
+.contacto .h2-contacto {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+
+.contacto .ul-contacto {
+    list-style: none;
+    margin: 0 auto;
+    padding: 0;
+    width: 10%;
+    text-align: center;
+}
+
+.contacto .li-contacto {
+    font-size: 50px;
+}
+
+.contacto .a-contacto {
+    text-decoration: none;
+    color: #212121;
+}
+
+.logo {
+    padding-left: 30px;
+}
+
+.menuItems li a {
+    font-size: 16px;
+}
+
+/*Carrusel*/
+.container-fluid.carr {
     padding: 1em 2em;
 }
 
 /*mapa*/
-.mapF{
+.mapF {
     width: 100%;
     height: 20em;
     padding: 0 2em;
 }
+
+/*Seccion Ofertas*/
+
+
 /*Wpp Boton*/
 .btn-flotante {
     color: #075e54;
@@ -65,16 +141,18 @@ input{
     transition: all 300ms ease 0ms;
     z-index: 99;
 }
+
 .btn-flotante:hover {
     color: #25d366;
     transform: translateY(-7px);
 }
-@media only screen and (max-width: 600px){
-    .btn-flotante{
+
+@media only screen and (max-width: 600px) {
+    .btn-flotante {
         padding: 12px 20px;
         bottom: 20px;
         right: 20px;
-}
+    }
 }
 
 /*footer*/
@@ -88,20 +166,21 @@ input{
     left: 0;
     padding-right: 10px;
 }
+
 .foot .p-foot {
     font-family: "Roboto", sans-serif;
     font-weight: bold;
     text-align: right;
     margin: 0;
 }
+
 .foot .a-foot {
     text-decoration: none;
     color: #212121;
 }
+
 .foot .a-foot:hover {
-    color: #00b8d4; 
+    color: #00b8d4;
 }
 
-@media screen and (min-width: 320px) and (max-width: 900px){
-
-}
+@media screen and (min-width: 320px) and (max-width: 900px) {}
