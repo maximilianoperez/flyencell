@@ -1,13 +1,14 @@
 * {
     margin: 0;
     padding: 0;
+    max-height: 1080px;
 }
 
 .body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background-color: #0A0A0A;
+    background-color: #212529;
 }
 
 .header {
@@ -20,35 +21,22 @@
     width: 50%;
     padding: 0.5em;
 }
-
-.navDesk {
-    list-style: none;
-    margin: 10px 0;
-    padding: 0 0;
-    text-align: center;
-    width: 100%;
-    height: 36.67px;
+/*Nav Bar*/
+.navbar-toggler {
+    background-color: cornsilk;
+    border-color: cornsilk;
+}
+.navbar-toggler-icon{
+    color: cornsilk;
+    border-color: cornsilk;
 }
 
-input {
-    display: none;
-    height: 0;
-}
 
-.li-navDesk {
-    margin: 0;
-    display: inline-block;
-}
-
-.li-navDesk:hover {
-    background-color: burlywood;
-    border-radius: 5px;
-}
-
-.a-navDesk {
-    text-decoration: none;
-    text-transform: uppercase;
-    font-size: 14px;
+/*Botones*/
+.btn-primary {
+    background-color: #D972FF;
+    border-color: #D972FF;
+    margin-right: 10px;
 }
 
 /*Modal CSS*/
@@ -140,19 +128,12 @@ input {
     right: 40px;
     transition: all 300ms ease 0ms;
     z-index: 99;
+    padding: 14px 14px;
 }
 
 .btn-flotante:hover {
     color: #25d366;
     transform: translateY(-7px);
-}
-
-@media only screen and (max-width: 600px) {
-    .btn-flotante {
-        padding: 12px 20px;
-        bottom: 20px;
-        right: 20px;
-    }
 }
 
 /*footer*/
@@ -183,4 +164,13 @@ input {
     color: #00b8d4;
 }
 
-@media screen and (min-width: 320px) and (max-width: 900px) {}
+@media screen and (min-width: 320px) and (max-width: 900px) {
+    .btn-flotante {
+        padding: 8px 8px;
+        bottom: 20px;
+        right: 20px;
+    }
+    .btn-primary {
+        margin-bottom: 10px;
+    }
+}
