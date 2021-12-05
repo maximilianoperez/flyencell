@@ -38,11 +38,19 @@
     border-color: #D972FF;
     margin-right: 10px;
 }
+.btn-primary:hover {
+    background-color: #E9ADFF;
+    font-weight: bold;
+    color: #0F0014;
+    border-color: #E9ADFF;
+}
+
 
 /*Modal CSS*/
 .modal-body {
     text-align: center;
-    background-color: #fff;
+    background-color: #f4d6ff;
+    height: 25em;
 }
 
 .modal-title {
@@ -56,7 +64,7 @@
     width: 100%;
     text-align: center;
     margin-bottom: .5em;
-    background-color: #FAEBFF;
+    background-color: #F4d6ff;
     font-family: 'Oswald', sans-serif;
     font-size: 1.5em;
 }
@@ -80,10 +88,14 @@
 
 .contacto .ul-contacto {
     list-style: none;
-    margin: 0 auto;
+    margin: 0 0;
     padding: 0;
-    width: 10%;
+    /*width: 10%;*/
     text-align: center;
+}
+.container-fluid {
+    margin: 0;
+    padding: 0;
 }
 
 .contacto .li-contacto {
